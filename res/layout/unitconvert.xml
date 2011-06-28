@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unit Type" android:id="@+id/Unit_Type_Tag"></TextView>
+	<Spinner android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:id="@+id/Unit_Type"
+	></Spinner>
+	<TableLayout
+		android:id="@+id/TableLayout02"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:stretchColumns="0,1">
+		<TableRow
+				android:id="@+id/TableRow04"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent">
+		<TextView
+			android:id="@+id/TextView01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Convert From" />
+		<TextView
+			android:id="@+id/TextView02"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Convert To" />
+		</TableRow>
+		<TableRow
+				android:id="@+id/TableRow05"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent">
+		<Spinner
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/From_units"
+			/>
+		<Spinner
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/To_Units"/>
+		</TableRow>
+	</TableLayout>
+	<TableLayout
+		android:id="@+id/TableLayout01"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:stretchColumns="0,1">
+		<TableRow
+			android:id="@+id/TableRow01"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/From_quantity" android:hint="Enter Quantity" android:lines="1" android:maxLines="1" android:digits="-0123456789." android:inputType="numberSigned" android:layout_weight="1" android:maxWidth="240px" android:maxLength="14"/>
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/To_quantity" android:hint="Enter Quantity" android:maxLines="1" android:lines="1" android:digits="-0123456789." android:inputType="numberSigned" android:layout_weight="1" android:maxWidth="240px" android:maxLength="14"/>
+		</TableRow>
+		<TableRow
+			android:id="@+id/TableRow02"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:background="#00ff00">
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Unit From (Dynamic)"
+				android:layout_width="fill_parent"
+				android:textColor="#000000" android:id="@+id/From_Unit_text"/>
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Unit to (Dynamic)"
+				android:layout_width="fill_parent"
+				android:textColor="#000000" android:id="@+id/To_unit_text"/>
+
+		</TableRow>
+		<TableRow
+			android:id="@+id/TableRow03"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/Status"/>
+		
+</TableRow>
+	</TableLayout>
+</LinearLayout>
+</ScrollView>

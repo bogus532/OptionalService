@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="text_color">#FFFF</color>
+	<color name="point_text_color">#FFFF0000</color>
+	<color name="background_color">#FFFF</color>
+	<color name="marker_color">#FFFF0000</color>
+	<color name="shadow_color">#7AAA</color>
+
+	<color name="outer_border">#11339900</color>
+	<color name="inner_border_one">#11339966</color>
+	<color name="inner_border_two">#113399FF</color>
+	<color name="inner_border">#FFFFFF</color>
+
+	<color name="horizen_sky_from">#FFA52A2A</color>
+	<color name="horizen_sky_to">#FFFFC125</color>
+	<color name="horizen_ground_from">#FF5F9EA0</color>
+	<color name="horizen_ground_to">#FF00008B</color>
+
+	<color name="horizen_sky_from2">#FF4169e1</color>
+	<color name="horizen_sky_to2">#FFFF9900</color>
+	<color name="horizen_ground_from2">#FFc71585</color>
+	<color name="horizen_ground_to2">#FF00A7D2</color>
+
+	<color name="NiceButtonStartColor">#4AA02C</color>
+	<color name="NiceButtonEndColor">#348017</color>
+	<color name="NiceButtonDisabledStartColor">#565051</color>
+	<color name="NiceButtonDisabledEndColor">#736F6E</color>
+	<color name="NiceButtonBorderColor">#254117</color>
+	
+	<color name="magic_flame">#00ffffff</color>
+    <color name="button_text">#ffffffff</color>
+
+</resources>

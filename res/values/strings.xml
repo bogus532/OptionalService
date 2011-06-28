@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Optional Service</string>
+    <string name="main_title">Optional Service</string>
+    <string name="flashlight_label">Flash Light</string>
+    <string name="compass_label">Compass</string>
+    <string name="measure_label">Measure the height</string>
+    <string name="calculator_label">Calculator</string>
+    <string name="unitconvert_label">UnitConvert</string>
+    
+    <!-- If there is a syntax error in the user entered calculation, an error dialog will appear.  This is the title. -->
+    <string name="error">Error</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit00">00</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit0">0</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit1">1</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit2">2</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit3">3</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit4">4</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit5">5</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit6">6</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit7">7</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit8">8</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit9">9</string>
+    <!-- Button name on screen to delete the last entered digit or operator -->
+    <string name="perc">%</string>
+    <!-- Button name on screen to clear the entire calculation field -->
+    <string name="clear">C</string>
+    <!-- Button name on screen to clear the entire calculation field -->
+    <string name="allclear">AC</string>
+    <!-- Do not translate. Unicode plus minus sign; don't translate. Displayed as button on screen. -->
+    <string name="plusminus">\u00B1</string>
+    <!-- Do not translate. Unicode division sign; don't translate. Displayed as button on screen. -->
+    <string name="div">\u00f7</string>
+    <!-- Do not translate. Unicode multiplication sign; don't translate. Displayed as button on screen. -->
+    <string name="mul">\u00d7</string>
+    <!-- Do not translate. Plus sign, displayed as button on screen -->
+    <string name="plus">+</string>
+    <!-- Do not translate. Unicode minus sign; don't translate. Displayed as button on screen. -->
+    <string name="minus">\u2212</string>
+    <!-- Do not translate. Decimal point; don't translate. Displayed as button on screen. -->
+    <string name="dot">.</string>
+    <!-- Do not translate. Equal sign; don't translate. Displayed as button on screen. -->
+    <string name="equal">=</string>
+    <!-- Do not translate. Down arrow; don't translate. Displayed as button on screen. -->
+    <string name="enter">\u2193</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+      android:orientation="vertical"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_gravity="center">
+      <TextView
+         android:text="@string/main_title"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginBottom="25dip"
+         android:textSize="24.5sp" />
+      <Button
+         android:id="@+id/flashlight_button"
+         android:layout_width="fill_parent"  
+		 android:layout_height="50dp"
+		 android:layout_margin="10dp"
+		 android:gravity="center"
+		
+		 android:background="@drawable/nice_button"
+		
+		 android:text="@string/flashlight_label"
+		 android:textColor="@android:color/white"
+		 android:textSize="18sp"
+		 android:shadowRadius="1"
+		 android:shadowDx="1"
+		 android:shadowDy="1"
+		 android:shadowColor="@android:color/black"/>
+      <Button
+         android:id="@+id/compass_button"
+         android:layout_width="fill_parent"  
+		 android:layout_height="50dp"
+		 android:layout_margin="10dp"
+		 android:gravity="center"
+		
+		 android:background="@drawable/nice_button"
+		
+		 android:text="@string/compass_label"
+		 android:textColor="@android:color/white"
+		 android:textSize="18sp"
+		 android:shadowRadius="1"
+		 android:shadowDx="1"
+		 android:shadowDy="1"
+		 android:shadowColor="@android:color/black"/>
+      <Button
+         android:id="@+id/measure_button"
+         android:layout_width="fill_parent"  
+		 android:layout_height="50dp"
+		 android:layout_margin="10dp"
+		 android:gravity="center"
+		
+		 android:background="@drawable/nice_button"
+		
+		 android:text="@string/measure_label"
+		 android:textColor="@android:color/white"
+		 android:textSize="18sp"
+		 android:shadowRadius="1"
+		 android:shadowDx="1"
+		 android:shadowDy="1"
+		 android:shadowColor="@android:color/black"/>
+      <Button
+         android:id="@+id/icalc_button"
+         android:layout_width="fill_parent"  
+		 android:layout_height="50dp"
+		 android:layout_margin="10dp"
+		 android:gravity="center"
+		
+		 android:background="@drawable/nice_button"
+		
+		 android:text="@string/calculator_label"
+		 android:textColor="@android:color/white"
+		 android:textSize="18sp"
+		 android:shadowRadius="1"
+		 android:shadowDx="1"
+		 android:shadowDy="1"
+		 android:shadowColor="@android:color/black"/>
+		 
+		<Button
+         android:id="@+id/unitconvert_button"
+         android:layout_width="fill_parent"  
+		 android:layout_height="50dp"
+		 android:layout_margin="10dp"
+		 android:gravity="center"
+		
+		 android:background="@drawable/nice_button"
+		
+		 android:text="@string/unitconvert_label"
+		 android:textColor="@android:color/white"
+		 android:textSize="18sp"
+		 android:shadowRadius="1"
+		 android:shadowDx="1"
+		 android:shadowDy="1"
+		 android:shadowColor="@android:color/black"/>
+		 
+     
+   </LinearLayout>
+</LinearLayout>

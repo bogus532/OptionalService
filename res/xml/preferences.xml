@@ -1,0 +1,14 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Setting default Height">
+		<EditTextPreference
+			android:key="default_height"
+			android:title="Set the Height"
+			android:summary="Set the Height in Cetimeter"
+			android:dialogTitle="Set the Height in Cetimeter"
+			android:inputType="number"
+			android:defaultValue="150"
+		/>
+		
+	</PreferenceCategory>
+</PreferenceScreen>
