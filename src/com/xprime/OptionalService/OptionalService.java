@@ -5,6 +5,7 @@ import com.xprime.Compass.Compass;
 import com.xprime.FlashLight.FlashLight;
 import com.xprime.unitconvert.unitconvert;
 import com.xprime.iCalc.iCalc;
+import com.xprime.SMSSending.SMSSending;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -29,12 +30,14 @@ public class OptionalService extends Activity implements OnClickListener{
         View btnmeasure = findViewById(R.id.measure_button);
         View btnunitconvert = findViewById(R.id.unitconvert_button);
         View btnicalc = findViewById(R.id.icalc_button);
+        View btnsmssending = findViewById(R.id.smssending_button);
         
         btnflashlight.setOnClickListener(this);
         btncompass.setOnClickListener(this);
         btnmeasure.setOnClickListener(this);
         btnunitconvert.setOnClickListener(this);
         btnicalc.setOnClickListener(this);
+        btnsmssending.setOnClickListener(this);
     }
 
 	@Override
@@ -58,6 +61,11 @@ public class OptionalService extends Activity implements OnClickListener{
 			break;
 		case R.id.unitconvert_button:
 			intent = new Intent(OptionalService.this, unitconvert.class); 
+			startActivity(intent);
+			break;
+			
+		case R.id.smssending_button:
+			intent = new Intent(OptionalService.this, SMSSending.class); 
 			startActivity(intent);
 			break;
 		}

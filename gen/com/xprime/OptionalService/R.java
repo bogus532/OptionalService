@@ -44,26 +44,27 @@ public final class R {
         public static final int yellow_button=0x7f020004;
     }
     public static final class id {
-        public static final int From_Unit_text=0x7f08002d;
-        public static final int From_quantity=0x7f08002a;
-        public static final int From_units=0x7f080026;
-        public static final int ScrollView01=0x7f08001e;
-        public static final int Status=0x7f080030;
-        public static final int TableLayout01=0x7f080028;
-        public static final int TableLayout02=0x7f080021;
-        public static final int TableRow01=0x7f080029;
-        public static final int TableRow02=0x7f08002c;
-        public static final int TableRow03=0x7f08002f;
-        public static final int TableRow04=0x7f080022;
-        public static final int TableRow05=0x7f080025;
-        public static final int TextView01=0x7f080023;
-        public static final int TextView02=0x7f080024;
-        public static final int To_Units=0x7f080027;
-        public static final int To_quantity=0x7f08002b;
-        public static final int To_unit_text=0x7f08002e;
-        public static final int Unit_Type=0x7f080020;
-        public static final int Unit_Type_Tag=0x7f08001f;
+        public static final int From_Unit_text=0x7f080031;
+        public static final int From_quantity=0x7f08002e;
+        public static final int From_units=0x7f08002a;
+        public static final int ScrollView01=0x7f080022;
+        public static final int Status=0x7f080034;
+        public static final int TableLayout01=0x7f08002c;
+        public static final int TableLayout02=0x7f080025;
+        public static final int TableRow01=0x7f08002d;
+        public static final int TableRow02=0x7f080030;
+        public static final int TableRow03=0x7f080033;
+        public static final int TableRow04=0x7f080026;
+        public static final int TableRow05=0x7f080029;
+        public static final int TextView01=0x7f080027;
+        public static final int TextView02=0x7f080028;
+        public static final int To_Units=0x7f08002b;
+        public static final int To_quantity=0x7f08002f;
+        public static final int To_unit_text=0x7f080032;
+        public static final int Unit_Type=0x7f080024;
+        public static final int Unit_Type_Tag=0x7f080023;
         public static final int adel=0x7f080003;
+        public static final int btnSendSMS=0x7f080020;
         public static final int cbRedTint=0x7f080000;
         public static final int compass_button=0x7f080019;
         public static final int del=0x7f080004;
@@ -90,93 +91,98 @@ public final class R {
         public static final int plus=0x7f080016;
         public static final int plusminus=0x7f080005;
         public static final int simplePad=0x7f080001;
-        public static final int spinnerTarget=0x7f08001d;
+        public static final int smssending_button=0x7f08001d;
+        public static final int spinnerTarget=0x7f080021;
         public static final int txtAnswer=0x7f080002;
+        public static final int txtMessage=0x7f08001f;
+        public static final int txtPhoneNo=0x7f08001e;
         public static final int unitconvert_button=0x7f08001c;
     }
     public static final class layout {
         public static final int flashlight_settingview=0x7f030000;
         public static final int icalc=0x7f030001;
         public static final int main=0x7f030002;
-        public static final int spinner_style=0x7f030003;
-        public static final int unitconvert=0x7f030004;
+        public static final int smssending=0x7f030003;
+        public static final int spinner_style=0x7f030004;
+        public static final int unitconvert=0x7f030005;
     }
     public static final class string {
         /**  Button name on screen to clear the entire calculation field 
          */
-        public static final int allclear=0x7f060015;
+        public static final int allclear=0x7f060016;
         public static final int app_name=0x7f060000;
         public static final int calculator_label=0x7f060005;
         /**  Button name on screen to clear the entire calculation field 
          */
-        public static final int clear=0x7f060014;
+        public static final int clear=0x7f060015;
         public static final int compass_label=0x7f060003;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit0=0x7f060009;
+        public static final int digit0=0x7f06000a;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit00=0x7f060008;
+        public static final int digit00=0x7f060009;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit1=0x7f06000a;
+        public static final int digit1=0x7f06000b;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit2=0x7f06000b;
+        public static final int digit2=0x7f06000c;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit3=0x7f06000c;
+        public static final int digit3=0x7f06000d;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit4=0x7f06000d;
+        public static final int digit4=0x7f06000e;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit5=0x7f06000e;
+        public static final int digit5=0x7f06000f;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit6=0x7f06000f;
+        public static final int digit6=0x7f060010;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit7=0x7f060010;
+        public static final int digit7=0x7f060011;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit8=0x7f060011;
+        public static final int digit8=0x7f060012;
         /**  Displayed numbers for the digit buttons 
          */
-        public static final int digit9=0x7f060012;
+        public static final int digit9=0x7f060013;
         /**  Do not translate. Unicode division sign; don't translate. Displayed as button on screen. 
          */
-        public static final int div=0x7f060017;
+        public static final int div=0x7f060018;
         /**  Do not translate. Decimal point; don't translate. Displayed as button on screen. 
          */
-        public static final int dot=0x7f06001b;
+        public static final int dot=0x7f06001c;
         /**  Do not translate. Down arrow; don't translate. Displayed as button on screen. 
          */
-        public static final int enter=0x7f06001d;
+        public static final int enter=0x7f06001e;
         /**  Do not translate. Equal sign; don't translate. Displayed as button on screen. 
          */
-        public static final int equal=0x7f06001c;
+        public static final int equal=0x7f06001d;
         /**  If there is a syntax error in the user entered calculation, an error dialog will appear.  This is the title. 
          */
-        public static final int error=0x7f060007;
+        public static final int error=0x7f060008;
         public static final int flashlight_label=0x7f060002;
         public static final int main_title=0x7f060001;
         public static final int measure_label=0x7f060004;
         /**  Do not translate. Unicode minus sign; don't translate. Displayed as button on screen. 
          */
-        public static final int minus=0x7f06001a;
+        public static final int minus=0x7f06001b;
         /**  Do not translate. Unicode multiplication sign; don't translate. Displayed as button on screen. 
          */
-        public static final int mul=0x7f060018;
+        public static final int mul=0x7f060019;
         /**  Button name on screen to delete the last entered digit or operator 
          */
-        public static final int perc=0x7f060013;
+        public static final int perc=0x7f060014;
         /**  Do not translate. Plus sign, displayed as button on screen 
          */
-        public static final int plus=0x7f060019;
+        public static final int plus=0x7f06001a;
         /**  Do not translate. Unicode plus minus sign; don't translate. Displayed as button on screen. 
          */
-        public static final int plusminus=0x7f060016;
+        public static final int plusminus=0x7f060017;
+        public static final int smssending_label=0x7f060007;
         public static final int unitconvert_label=0x7f060006;
     }
     public static final class style {

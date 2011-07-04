@@ -7,6 +7,7 @@
     <string name="measure_label">Measure the height</string>
     <string name="calculator_label">Calculator</string>
     <string name="unitconvert_label">UnitConvert</string>
+    <string name="smssending_label">SMS 보내기</string>
     
     <!-- If there is a syntax error in the user entered calculation, an error dialog will appear.  This is the title. -->
     <string name="error">Error</string>
