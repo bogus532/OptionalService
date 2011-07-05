@@ -196,6 +196,7 @@ public class unitconvert extends Activity {
 		// Set initial Screen Text
 		from_quantity.setText("");
 		to_quantity.setText("");
+		to_quantity.setFocusableInTouchMode(false);
 		from_text.setText("Convert From");
 		to_text.setText("Convert To");
 		// Set Spinners
@@ -228,10 +229,11 @@ public class unitconvert extends Activity {
 			}
 
 		});
+		/*		
 		to_quantity.setOnKeyListener(new OnKeyListener() {
 
 			public boolean onKey(View v, int keyCode, KeyEvent event) {
-				/*
+				
 				try {
 					if (!(Double.isNaN(Double.valueOf(to_quantity.getText()
 							.toString())))) {
@@ -240,8 +242,8 @@ public class unitconvert extends Activity {
 				} catch (NumberFormatException e) {
 					Log.d("error", e.toString());
 				}
-				*/
-				convert2(to_quantity.getText().toString(), "from");
+				
+				//convert2(to_quantity.getText().toString(), "from");
 				return false;
 			}
 		});
@@ -254,9 +256,8 @@ public class unitconvert extends Activity {
 				to_quantity.setText("");
 				return false;
 			}
-
 		});
-
+*/
 		// check if there are saved values
 
 	}
@@ -354,7 +355,7 @@ public class unitconvert extends Activity {
 				// Set Text
 				to_text.setText(To_Units.get(arg2));
 				//clear();
-				convert2(to_quantity.getText().toString(), "from");
+				convert2(from_quantity.getText().toString(), "to");
 				// to_quantity.setText("");
 			}
 

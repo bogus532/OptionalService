@@ -54,10 +54,24 @@
 			android:layout_width="fill_parent">
 			<EditText
 				android:layout_height="wrap_content"
-				android:layout_width="fill_parent" android:id="@+id/From_quantity" android:hint="Enter Quantity" android:lines="1" android:maxLines="1" android:digits="-0123456789." android:inputType="numberSigned" android:layout_weight="1" android:maxWidth="240px" android:maxLength="14"/>
+				android:layout_width="fill_parent" 
+				android:id="@+id/From_quantity" 
+				android:hint="Enter Quantity" 
+				android:lines="1" 
+				android:maxLines="1" 
+				android:digits="-0123456789." 
+				android:inputType="numberSigned" 
+				android:layout_weight="1" android:maxWidth="240px" android:maxLength="14"/>
 			<EditText
 				android:layout_height="wrap_content"
-				android:layout_width="fill_parent" android:id="@+id/To_quantity" android:hint="Enter Quantity" android:maxLines="1" android:lines="1" android:digits="-0123456789." android:inputType="numberSigned" android:layout_weight="1" android:maxWidth="240px" android:maxLength="14"/>
+				android:layout_width="fill_parent" 
+				android:id="@+id/To_quantity" 
+				android:hint="Enter Quantity" 
+				android:maxLines="1" android:lines="1" 
+				android:digits="-0123456789." android:inputType="numberSigned" 
+				android:layout_weight="1" android:maxWidth="240px" android:maxLength="14"
+				android:editable="false"
+				/>
 		</TableRow>
 		<TableRow
 			android:id="@+id/TableRow02"
